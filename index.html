@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+ <html>
+ 	<head>
+ 		<title></title>
+	 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	    <meta name="apple-mobile-web-app-capable" content="yes">
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+	    <link rel="stylesheet" href="./static/css/reset.css">
+	    <link rel="stylesheet" href="./static/css/index.css">
+ 	</head>
+ 	<body>
+ 		<div class="pc">
+	 		<div class="hd">
+				<div class="logo">canvas</div>
+	 		</div>
+	 		<div class="bd">
+	 			<div class="toolbar">
+	 				<div class="tit">工具栏</div>
+	 				<div class="btn active" id="line">随意画线</div>
+	 				<div class="btn" id="rect">画矩形</div>
+	 				<div class="btn" id="circle">画圆</div>
+	 				<div class="btn" id="color">上色</div>
+	 				<div class="btn" id="move">移动</div>
+	 				<div class="btn able" id="clear">清空</div>
+	 			</div>
+	 			<div class="canvas-con">
+	 				<div class="temp-canvas">
+		 				<canvas id="temp-canvas"></canvas>
+		 			</div>
+		 			<div class="line-canvas">
+		 				<canvas class="top" id="line-canvas"></canvas>
+		 			</div>
+		 			<div class="cover-canvas">
+		 				<canvas id="cover-canvas"></canvas>
+		 			</div>
+	 			</div>
+	 		</div>
+	 		<div class="ft">foot</div>
+ 		</div>
+ 	</body> 	
+ 	<script src="static/js/client.js"></script>
+ 	<script src="static/js/common.js"></script>
+ 	<script src="static/js/line.js"></script>
+ 	<script src="static/js/moveOverlay.js"></script>
+ 	<script src="static/js/overlay.js"></script>
+ </html>
